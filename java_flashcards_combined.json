@@ -1,0 +1,1049 @@
+[ {
+      "question": "What is the function of the motherboard in a computer?",
+      "answer": "The motherboard is the main circuit board that holds all other components together and enables fast connectivity between them."
+    },
+    {
+      "question": "What does the CPU do?",
+      "answer": "The CPU (central processing unit), also called the processor, executes instructions and acts as the brain of the computer."
+    },
+    {
+      "question": "Why does the CPU need a fan and heat sink?",
+      "answer": "Because the CPU gets hot during operation and needs cooling to prevent overheating."
+    },
+    {
+      "question": "What is RAM used for?",
+      "answer": "RAM (random access memory) holds instructions and data temporarily while the computer is running. It is volatile, meaning data is lost when the computer is turned off."
+    },
+    {
+      "question": "What is persistent storage?",
+      "answer": "Persistent storage retains data even when the computer is turned off. Examples include HDDs, SSDs, USB drives, and optical disks."
+    },
+    {
+      "question": "What are the two main types of disk drives?",
+      "answer": "Hard Disk Drives (HDDs) and Solid State Drives (SSDs)."
+    },
+    {
+      "question": "What types of removable storage are commonly used?",
+      "answer": "USB flash drives, optical discs (CDs/DVDs), and floppy disks (older)."
+    },
+    {
+      "question": "Name some common expansion cards.",
+      "answer": "NIC card, wireless NIC, graphics card, sound card."
+    },
+    {
+      "question": "What is the purpose of a NIC card?",
+      "answer": "A NIC (network interface card) allows a computer to connect to a network."
+    },
+    {
+      "question": "What is USB used for?",
+      "answer": "USB provides a hot-swappable connection for data transfer between devices."
+    },
+    {
+      "question": "What connectors are used for video signals?",
+      "answer": "HDMI, VGA, and DVI."
+    },
+    {
+      "question": "What numbering system do computers use?",
+      "answer": "Computers use binary (Base 2), where each digit is either 0 or 1."
+    },
+    {
+      "question": "What is a 'bit'?",
+      "answer": "A bit is a single binary digit, representing an on/off state."
+    },
+    {
+      "question": "What does it mean if a computer is 32-bit?",
+      "answer": "A 32-bit computer can process data in 32-bit chunks and can represent a maximum signed value of 2,147,483,647."
+    },
+    {
+      "question": "What is the largest signed value a 64-bit computer can represent?",
+      "answer": "9,223,372,036,854,775,807."
+    },
+    {
+      "question": "What is hexadecimal and why is it used?",
+      "answer": "Hexadecimal is base 16 (0-9, A-F) and is used for shorter representations of binary, especially in programming (e.g., color values)."
+    },
+    {
+      "question": "How many bytes are in a kilobyte (KB)?",
+      "answer": "1024 bytes."
+    },
+    {
+      "question": "How many bytes are in a megabyte (MB)?",
+      "answer": "1,048,576 bytes (1024 x 1024)."
+    },
+    {
+      "question": "How is internet speed measured?",
+      "answer": "In bits per second (bps), for example, 222 Mbps means 222 million bits per second."
+    },
+    {
+      "question": "Why is there confusion in storage sizes between software and hardware companies?",
+      "answer": "Software companies use 1KB = 1024 bytes, while hardware companies often use 1KB = 1000 bytes."
+    },
+    {
+      "question": "Which device has the least storage capacity: Floppy disk, USB drive, or internal HDD?",
+      "answer": "Floppy disk (1.44 MB)."
+    },
+    {
+      "question": "What is the smallest unit of memory you can access?",
+      "answer": "A bit (single binary digit)."
+    },
+    {
+      "question": "How is a byte defined?",
+      "answer": "A byte consists of 8 bits."
+    },
+    {
+      "question": "Convert the decimal number 15 to binary.",
+      "answer": "15 ÷ 2 = 7 remainder 1 → 7 ÷ 2 = 3 remainder 1 → 3 ÷ 2 = 1 remainder 1 → 1 ÷ 2 = 0 remainder 1 → Read remainders in reverse: 1111 → Final binary: 00001111"
+    },
+    {
+      "question": "Convert the decimal number 32 to binary.",
+      "answer": "32 ÷ 2 = 16 remainder 0 → 16 ÷ 2 = 8 remainder 0 → 8 ÷ 2 = 4 remainder 0 → 4 ÷ 2 = 2 remainder 0 → 2 ÷ 2 = 1 remainder 0 → 1 ÷ 2 = 0 remainder 1 → Read remainders in reverse: 100000 → Final binary: 00100000"
+    },
+    {
+      "question": "Convert the decimal number 117 to binary.",
+      "answer": "117 ÷ 2 = 58 remainder 1 → 58 ÷ 2 = 29 remainder 0 → 29 ÷ 2 = 14 remainder 1 → 14 ÷ 2 = 7 remainder 0 → 7 ÷ 2 = 3 remainder 1 → 3 ÷ 2 = 1 remainder 1 → 1 ÷ 2 = 0 remainder 1 → Read remainders in reverse: 1110101 → Final binary: 01110101"
+    },
+    {
+      "question": "Convert the decimal number 946 to binary.",
+      "answer": "946 ÷ 2 = 473 remainder 0 → 473 ÷ 2 = 236 remainder 1 → 236 ÷ 2 = 118 remainder 0 → 118 ÷ 2 = 59 remainder 0 → 59 ÷ 2 = 29 remainder 1 → 29 ÷ 2 = 14 remainder 1 → 14 ÷ 2 = 7 remainder 0 → 7 ÷ 2 = 3 remainder 1 → 3 ÷ 2 = 1 remainder 1 → 1 ÷ 2 = 0 remainder 1 → Read remainders in reverse: 1110110010 → Final binary: 00000011 10110010"
+    },
+    {
+      "question": "Convert the binary number 00000100 to decimal.",
+      "answer": "2^2 = 4 → All other bits are 0 → Final decimal: 4"
+    },
+    {
+      "question": "Convert the binary number 00001101 to decimal.",
+      "answer": "2^3 + 2^2 + 2^0 = 8 + 4 + 1 = 13 → Final decimal: 13"
+    },
+    {
+      "question": "Convert the binary number 00110101 to decimal.",
+      "answer": "2^5 + 2^4 + 2^2 + 2^0 = 32 + 16 + 4 + 1 = 53 → Final decimal: 53"
+    },
+    {
+      "question": "Convert the binary number 01010101 10101010 to decimal.",
+      "answer": "01010101 = 85 and 10101010 = 170 → Together: 85 and 170"
+    },
+    {
+      "question": "How do you convert your age to Base 2?",
+      "answer": "Use division by 2, record the remainders, and read them in reverse. Example: Age 20 → 20 ÷ 2 = 10 (0), 10 ÷ 2 = 5 (0), 5 ÷ 2 = 2 (1), 2 ÷ 2 = 1 (0), 1 ÷ 2 = 0 (1) → Binary: 10100"
+    },
+    {
+      "question": "How do you convert your age to Base 10?",
+      "answer": "Base 10 is the regular decimal system we use every day. Your age as a normal number is already in Base 10."
+    },
+    {
+      "question": "How do you convert your age to Base 16?",
+      "answer": "Use division by 16. Example: Age 20 → 20 ÷ 16 = 1 remainder 4 → Read in reverse → Hex: 14"
+    },
+    {
+      "question": "What is the command line?",
+      "answer": "The command line is a powerful, text-based interface that helps developers run programs and control the computer. It's often more efficient than graphical interfaces for certain tasks."
+    },
+    {
+      "question": "Why should programmers learn the command line?",
+      "answer": "Some tasks can only be done from the command line, and it's a core skill for programmers. With practice, it becomes faster and more efficient."
+    },
+    {
+      "question": "What is a CLI?",
+      "answer": "CLI stands for Command-Line Interface. It's a program that processes text-based commands entered by the user."
+    },
+    {
+      "question": "What is an IDE?",
+      "answer": "An Integrated Development Environment (IDE) is a software suite like IntelliJ, VS Code, or Visual Studio that combines code writing, running, and debugging in one interface."
+    },
+    {
+      "question": "What is a shell?",
+      "answer": "A shell is a program that processes commands entered in the CLI. Examples include Bash, PowerShell, and Command Prompt."
+    },
+    {
+      "question": "What does the 'date' command do in the terminal?",
+      "answer": "It displays the current date and time."
+    },
+    {
+      "question": "What is the purpose of the 'pwd' command?",
+      "answer": "It shows the current directory (Print Working Directory)."
+    },
+    {
+      "question": "What does 'ls' do in the terminal?",
+      "answer": "It lists the files and directories in the current directory."
+    },
+    {
+      "question": "How do you view hidden files using ls?",
+      "answer": "Use 'ls -a' to list all files including hidden ones."
+    },
+    {
+      "question": "How do you change directories in the terminal?",
+      "answer": "Use the 'cd' command followed by the path to the directory."
+    },
+    {
+      "question": "How do you go up one directory level?",
+      "answer": "Use 'cd ..' to move to the parent directory."
+    },
+    {
+      "question": "How do you return to the home directory in Bash?",
+      "answer": "Use 'cd ~' or just 'cd' to go to your home directory."
+    },
+    {
+      "question": "What is a directory?",
+      "answer": "A directory (or folder) is a special file used to organize other files or subdirectories."
+    },
+    {
+      "question": "What is a file system?",
+      "answer": "The file system is the full hierarchy of directories and files on a storage device, starting from the root."
+    },
+    {
+      "question": "What is version control?",
+      "answer": "Version control is a system that tracks changes to files over time, allowing developers to revert, compare, and collaborate effectively."
+    },
+    {
+      "question": "What is a repository?",
+      "answer": "A repository is a data structure where all the versions (commits) of a project are stored and tracked."
+    },
+    {
+      "question": "What is the difference between centralized and distributed version control?",
+      "answer": "Centralized version control uses a single central server, while distributed version control gives each developer a full copy of the repository and history."
+    },
+    {
+      "question": "Give an example of a centralized version control system.",
+      "answer": "SVN (Subversion) is a common centralized version control system."
+    },
+    {
+      "question": "What is Git?",
+      "answer": "Git is a free, open-source distributed version control system used to track changes in code and collaborate with others."
+    },
+    {
+      "question": "What are the three core areas in Git?",
+      "answer": "1) Working Directory, 2) Staging Area, 3) Local Repository"
+    },
+    {
+      "question": "What does 'git init' do?",
+      "answer": "It initializes a new Git repository in the current directory."
+    },
+    {
+      "question": "What does 'git status' do?",
+      "answer": "It displays the current state of the working directory and staging area—showing which files are staged, unstaged, or untracked."
+    },
+    {
+      "question": "What does 'git add' do?",
+      "answer": "It stages files, telling Git which changes to include in the next commit."
+    },
+    {
+      "question": "What does 'git commit' do?",
+      "answer": "It saves all staged changes as a snapshot (commit) to the repository with a message."
+    },
+    {
+      "question": "What does 'git log' do?",
+      "answer": "It shows the commit history of the repository."
+    },
+    {
+      "question": "Why use a .gitkeep file?",
+      "answer": "Git doesn’t track empty directories, so .gitkeep is used as a placeholder to ensure the folder gets included in the repo."
+    },
+    {
+      "question": "What is the purpose of a .gitignore file?",
+      "answer": "It tells Git which files or folders to ignore, like compiled binaries or log files, to keep the repo clean and efficient."
+    },
+    {
+      "question": "What is 'git diff' used for?",
+      "answer": "It shows line-by-line differences between changes in the working directory and the last commit."
+    },
+    {
+      "question": "What is 'git blame' used for?",
+      "answer": "It shows which commit and author last modified each line of a file—helpful for tracking changes."
+    },
+      {
+        "question": "What is GitHub?",
+        "answer": "GitHub is a cloud-based service that stores remote Git repositories and allows developers to collaborate, manage, and share code online."
+      },
+      {
+        "question": "Why use GitHub with Git?",
+        "answer": "GitHub acts as a remote backup for your local Git repositories and enables collaboration with other developers."
+      },
+      {
+        "question": "What are some features of GitHub?",
+        "answer": "GitHub provides a web UI, access control, collaboration tools like wikis and issue tracking, and repository management."
+      },
+      {
+        "question": "How do you create a repository on GitHub?",
+        "answer": "Log in to GitHub, click 'New', name your repo, choose visibility, and optionally add a README or .gitignore."
+      },
+      {
+        "question": "What does 'git clone' do?",
+        "answer": "It makes a local copy of a remote repository, including all files and commit history."
+      },
+      {
+        "question": "What does 'git push' do?",
+        "answer": "It uploads your local commits to the remote repository so others can see your changes."
+      },
+      {
+        "question": "What does 'git pull' do?",
+        "answer": "It downloads new commits from the remote repository and merges them into your local branch."
+      },
+      {
+        "question": "What is the recommended first push command?",
+        "answer": "$ git push -u origin main — The '-u' flag sets the upstream tracking relationship between your local and remote branches."
+      },
+      {
+        "question": "What’s a typical workflow with Git and GitHub?",
+        "answer": "1. Make local changes 2. Stage with git add 3. Commit with git commit 4. Push to GitHub with git push 5. Pull updates from others using git pull"
+      },
+      {
+        "question": "Why should .idea folders be added to .gitignore?",
+        "answer": "Because they are IDE-specific config folders not relevant to the actual code, and shouldn't be shared or versioned."
+      },
+      {
+        "question": "What file can you edit to prevent Git from tracking specific files?",
+        "answer": "The .gitignore file."
+      },
+      {
+        "question": "What is GitHub?",
+        "answer": "GitHub is a cloud-based service that stores remote Git repositories and allows developers to collaborate, manage, and share code online."
+      },
+      {
+        "question": "Why use GitHub with Git?",
+        "answer": "GitHub acts as a remote backup for your local Git repositories and enables collaboration with other developers."
+      },
+      {
+        "question": "What are some features of GitHub?",
+        "answer": "GitHub provides a web UI, access control, collaboration tools like wikis and issue tracking, and repository management."
+      },
+      {
+        "question": "How do you create a repository on GitHub?",
+        "answer": "Log in to GitHub, click 'New', name your repo, choose visibility, and optionally add a README or .gitignore."
+      },
+      {
+        "question": "What does 'git clone' do?",
+        "answer": "It makes a local copy of a remote repository, including all files and commit history."
+      },
+      {
+        "question": "What does 'git push' do?",
+        "answer": "It uploads your local commits to the remote repository so others can see your changes."
+      },
+      {
+        "question": "What does 'git pull' do?",
+        "answer": "It downloads new commits from the remote repository and merges them into your local branch."
+      },
+      {
+        "question": "What is the recommended first push command?",
+        "answer": "$ git push -u origin main — The '-u' flag sets the upstream tracking relationship between your local and remote branches."
+      },
+      {
+        "question": "What’s a typical workflow with Git and GitHub?",
+        "answer": "1. Make local changes 2. Stage with git add 3. Commit with git commit 4. Push to GitHub with git push 5. Pull updates from others using git pull"
+      },
+      {
+        "question": "Why should .idea folders be added to .gitignore?",
+        "answer": "Because they are IDE-specific config folders not relevant to the actual code, and shouldn't be shared or versioned."
+      },
+      {
+        "question": "What file can you edit to prevent Git from tracking specific files?",
+        "answer": "The .gitignore file."
+      },
+      {
+        "question": "What is IntelliJ IDEA?",
+        "answer": "IntelliJ IDEA is a powerful Integrated Development Environment (IDE) developed by JetBrains, widely used for Java and Kotlin development."
+      },
+      {
+        "question": "What can IntelliJ be used for?",
+        "answer": "You can write, run, test, debug Java projects, and integrate with Git, all from one place."
+      },
+      {
+        "question": "What are the two editions of IntelliJ IDEA?",
+        "answer": "Free Community Edition and paid Ultimate Edition."
+      },
+      {
+        "question": "What is a Java project in IntelliJ?",
+        "answer": "It's a folder structure that contains all project files, including source code, dependencies, and configuration files."
+      },
+      {
+        "question": "What build tools can you use in IntelliJ?",
+        "answer": "Maven (most popular), Gradle, and Ant."
+      },
+      {
+        "question": "What are three ways to create a Java project in IntelliJ?",
+        "answer": "1) Create directly in IntelliJ, 2) Import from a Version Control System (like Git), 3) Manually create then open in IntelliJ."
+      },
+      {
+        "question": "What does the 'New Project' dialog in IntelliJ do?",
+        "answer": "It lets you choose how to create and configure your new Java project, including templates and boilerplate options."
+      },
+      {
+        "question": "What should you select as your Java version during project setup?",
+        "answer": "Java 17."
+      },
+      {
+        "question": "What is pom.xml in a Maven project?",
+        "answer": "A configuration file that defines project settings and dependencies for Maven-based Java projects."
+      },
+      {
+        "question": "Where should your Java code be placed in a Maven project?",
+        "answer": "In the src/main/java directory."
+      },
+      {
+        "question": "Where should your unit test files go in a Maven project?",
+        "answer": "In the src/test/java directory."
+      },
+      {
+        "question": "What is a Java package?",
+        "answer": "A way to organize Java classes. Packages appear as folders and follow the format com.companyname.projectname."
+      },
+      {
+        "question": "How do you create a package in IntelliJ?",
+        "answer": "Right-click the src/main/java folder and select New → Package."
+      },
+      {
+        "question": "How do you create a Java class in IntelliJ?",
+        "answer": "Right-click on a package, select New → Java Class, and name your class (starting with an uppercase letter)."
+      },
+      {
+        "question": "What is the entry point of a Java application?",
+        "answer": "The main method: public static void main(String[] args) { }"
+      },
+      {
+        "question": "How do you run a Java application in IntelliJ?",
+        "answer": "Click the green arrow next to the main method to run the application."
+      },
+      {
+        "question": "What does IntelliJ do when there is an error in your code?",
+        "answer": "It shows red squiggly lines, compile error messages, and lists issues in the 'Problems' tab."
+      },
+      {
+        "question": "What are common Java compile errors?",
+        "answer": "Misspelled functions, missing semicolons, and missing closing curly braces."
+      },
+      {
+        "question": "What should you do when you see a red squiggly line in IntelliJ?",
+        "answer": "Hover over it to view the error message and use the Problems tab to fix it."
+      },
+      {
+        "question": "How do you organize Java files in a project?",
+        "answer": "Using packages inside the src/main/java folder; each package should contain related classes."
+      },
+      {
+        "question": "What is programming?",
+        "answer": "Programming is the process of telling a computer what to do, step-by-step, using a language the computer understands."
+      },
+      {
+        "question": "Why must programming instructions be precise?",
+        "answer": "Computers follow exact instructions without assumptions, so any imprecision can cause errors or unexpected behavior."
+      },
+      {
+        "question": "What is the purpose of 'Program the Monkey' exercises?",
+        "answer": "To practice writing precise, logical instructions through simple, visual steps using commands like Step, Turn, Eat."
+      },
+      {
+        "question": "List the basic commands understood by the monkey.",
+        "answer": "Step number, Turn direction, Eat banana."
+      },
+      {
+        "question": "What are the new commands added in 'Smarter Monkey'?",
+        "answer": "Pickup item, Drop item — with item being banana or basket."
+      },
+      {
+        "question": "Why do programmers need to deal with ambiguity?",
+        "answer": "Because real-world problems are often unclear, and writing exact instructions helps clarify what's needed."
+      },
+      {
+        "question": "What does the 'Exact Instructions Challenge' teach us?",
+        "answer": "It shows how important it is to give step-by-step, unambiguous instructions that a computer can follow precisely."
+      },
+      {
+        "question": "What’s the lesson from the scrambled eggs example?",
+        "answer": "The more specific and detailed the instructions, the better a computer or another person can follow them."
+      },
+      {
+        "question": "Why is it important to consider context and assumptions in programming?",
+        "answer": "Because people and computers may not interpret vague instructions the same way, leading to mistakes or confusion."
+      },
+      {
+        "question": "What kind of thinking does software development require?",
+        "answer": "Iterative, detailed, user-aware, and scenario-based thinking — anticipating possible inputs, errors, and user levels."
+      },
+      {
+        "question": "What is Java?",
+        "answer": "Java is an object-oriented programming language developed in the 1990s by Sun Microsystems and now owned by Oracle. It is platform independent, meaning it can run on different types of computers."
+      },
+      {
+        "question": "What does 'write once, run anywhere' mean?",
+        "answer": "It means Java programs can be written once and run on any system that has a Java Virtual Machine (JVM), thanks to Java's platform independence."
+      },
+      {
+        "question": "What is the latest Long Term Support (LTS) version of Java?",
+        "answer": "Java 17."
+      },
+      {
+        "question": "What is Java bytecode?",
+        "answer": "Bytecode is the intermediate code Java compiles to. It's stored in .class files and executed by the Java Virtual Machine (JVM)."
+      },
+      {
+        "question": "What is the Java Virtual Machine (JVM)?",
+        "answer": "JVM is the program that loads and runs Java bytecode. It allows Java programs to run on different operating systems."
+      },
+      {
+        "question": "What is the Java Runtime Environment (JRE)?",
+        "answer": "The JRE includes the JVM and libraries needed to run Java applications. It does not include development tools."
+      },
+      {
+        "question": "What is the Java Developer Kit (JDK)?",
+        "answer": "The JDK includes the JRE plus tools like the compiler and debugger needed to develop Java applications."
+      },
+      {
+        "question": "Which edition of JDK should you install for basic development?",
+        "answer": "Java Standard Edition (Java SE)."
+      },
+      {
+        "question": "What tool is used to compile Java code?",
+        "answer": "javac — the Java compiler."
+      },
+      {
+        "question": "What happens if your Java code has syntax errors?",
+        "answer": "The compiler will not generate bytecode, and the program won’t run until the errors are fixed."
+      },
+      {
+        "question": "What type of language is Java?",
+        "answer": "Java is a statically-typed, case-sensitive, object-oriented programming language from the C-family of languages."
+      },
+      {
+        "question": "What are the two types of comments in Java?",
+        "answer": "1) Single-line comments using // and 2) Multi-line comments using /* ... */"
+      },
+      {
+        "question": "What is a Javadoc comment?",
+        "answer": "A special kind of multi-line comment used to generate documentation, beginning with /** and often including tags like @author."
+      },
+      {
+        "question": "What is the purpose of Javadoc?",
+        "answer": "Javadoc generates API documentation from specially formatted comments in Java source code."
+      },
+      {
+        "question": "What are the two categories of data types in Java?",
+        "answer": "1) Primitive types (e.g., int, char, boolean) 2) Non-primitive types (e.g., arrays, classes, interfaces)"
+      },
+      {
+        "question": "Why is String capitalized in Java?",
+        "answer": "Because String is a class, not a primitive type."
+      },
+      {
+        "question": "What are the main number types in Java and their sizes?",
+        "answer": "byte (8-bit), short (16-bit), int (32-bit), long (64-bit), float (32-bit, 7 digits), double (64-bit, 15 digits)"
+      },
+      {
+        "question": "What is the range of a byte?",
+        "answer": "-128 to 127"
+      },
+      {
+        "question": "What is the purpose of 'final' in Java?",
+        "answer": "It declares a constant (read-only variable) that cannot be changed after it is initialized."
+      },
+      {
+        "question": "What happens if you try to use an uninitialized local variable in Java?",
+        "answer": "The compiler throws an error because local variables do not have default values."
+      },
+      {
+        "question": "What are the three types of variables in Java?",
+        "answer": "1) Local variables (inside methods), 2) Static variables (shared across class), 3) Instance variables (per object)"
+      },
+      {
+        "question": "What is string concatenation in Java?",
+        "answer": "Using the + operator to combine strings."
+      },
+      {
+        "question": "What is the modulo operator (%) used for?",
+        "answer": "To get the remainder of a division operation."
+      },
+      {
+        "question": "What’s the difference between integer division and floating-point division?",
+        "answer": "Integer division truncates the result, while floating-point division includes decimals."
+      },
+      {
+        "question": "What do ++ and -- operators do in Java?",
+        "answer": "They increment or decrement a variable by 1, either before (prefix) or after (postfix) using the value."
+      },
+      {
+        "question": "What is a widening conversion in Java?",
+        "answer": "Automatically converting a smaller type to a larger type, like int to long or float to double."
+      },
+      {
+        "question": "What is narrowing in Java?",
+        "answer": "Converting a larger type to a smaller one, like double to float. It requires explicit casting."
+      },
+      {
+        "question": "How do you explicitly cast in Java?",
+        "answer": "Place the target type in parentheses before the value, like: int i = (int) myLong;"
+      },
+      {
+        "question": "What is the Math class used for?",
+        "answer": "To perform advanced mathematical operations like Math.max(), Math.sqrt(), Math.abs(), etc."
+      },
+      {
+        "question": "What are assignment operators in Java?",
+        "answer": "Shortcuts like +=, -=, *=, /=, %= to perform an operation and assignment in one step."
+      },
+      {
+        "question": "What is System.out.print() used for?",
+        "answer": "To print text to the screen without moving to a new line."
+      },
+      {
+        "question": "What is System.out.println() used for?",
+        "answer": "To print text to the screen and move to a new line afterward."
+      },
+      {
+        "question": "How do you format decimal output to two decimal places in Java?",
+        "answer": "Use String.format(\"%.2f\", value) or System.out.printf(\"%.2f\", value)."
+      },
+      {
+        "question": "What is the Scanner class used for?",
+        "answer": "To read input from the keyboard or other input streams."
+      },
+      {
+        "question": "How do you import the Scanner class?",
+        "answer": "import java.util.Scanner; or import java.util.*;"
+      },
+      {
+        "question": "What method reads a whole line of input using Scanner?",
+        "answer": "nextLine()"
+      },
+      {
+        "question": "What Scanner method reads an int?",
+        "answer": "nextInt()"
+      },
+      {
+        "question": "What is the common issue with nextLine() after nextInt()?",
+        "answer": "A leftover newline character is still in the buffer, so nextLine() reads it immediately."
+      },
+      {
+        "question": "How can you fix Scanner skipping input after reading a number?",
+        "answer": "Call an extra nextLine() to consume the leftover newline."
+      },
+      {
+        "question": "What is a static method in Java?",
+        "answer": "A method that belongs to the class and can be called without creating an object of the class."
+      },
+      {
+        "question": "How do you pass data to a method in Java?",
+        "answer": "By providing arguments in the method call, which are received by parameters in the method definition."
+      },
+      {
+        "question": "How do you return a value from a method in Java?",
+        "answer": "Use the return keyword and declare the method's return type (e.g., int, double)."
+      },
+      {
+        "question": "What are three ways to use Scanner in multiple methods?",
+        "answer": "1) Re-declare Scanner in each method, 2) Declare Scanner at the class level, 3) Pass Scanner as a parameter."
+      },
+      {
+        "question": "What are conditionals in Java?",
+        "answer": "Conditionals allow your program to make decisions and perform different actions based on conditions."
+      },
+      {
+        "question": "What are the types of conditionals in Java?",
+        "answer": "1) if statement, 2) if/else, 3) else if, 4) switch statement, 5) conditional (ternary) operator"
+      },
+      {
+        "question": "What is the syntax of an if statement in Java?",
+        "answer": "if (condition) { // code to execute }"
+      },
+      {
+        "question": "What comparison operators are used in conditionals?",
+        "answer": "==, !=, <, <=, >, >="
+      },
+      {
+        "question": "What is an if/else statement?",
+        "answer": "It executes one block of code if the condition is true and another block if the condition is false."
+      },
+      {
+        "question": "How does else if work in Java?",
+        "answer": "It checks multiple conditions in sequence until one is true or defaults to the final else block."
+      },
+      {
+        "question": "What are logical operators in Java?",
+        "answer": "&& (AND), || (OR), ! (NOT)"
+      },
+      {
+        "question": "How should you compare strings in Java?",
+        "answer": "Use the equals() method: string1.equals(string2)"
+      },
+      {
+        "question": "What is the ternary operator in Java?",
+        "answer": "A shorthand for if/else: condition ? valueIfTrue : valueIfFalse"
+      },
+      {
+        "question": "Give an example of a ternary operation in Java.",
+        "answer": "double price = (age < 18) ? 22.50 : 25.00;"
+      },
+      {
+        "question": "What is the switch statement in Java?",
+        "answer": "A multi-branch conditional that executes different code blocks based on the value of an expression."
+      },
+      {
+        "question": "What keyword ends each case in a switch statement?",
+        "answer": "break — it exits the switch block to avoid fall-through."
+      },
+      {
+        "question": "What is the default block in a switch used for?",
+        "answer": "To run code when none of the case values match the expression."
+      },
+      {
+        "question": "How do you define a string in Java?",
+        "answer": "A string is defined using double quotes, like: String greeting = \"Hello!\""
+      },
+      {
+        "question": "What does it mean that strings in Java are immutable?",
+        "answer": "Once created, a string object cannot be changed. Any modifications create a new string."
+      },
+      {
+        "question": "How do you escape quotes inside a Java string?",
+        "answer": "Use a backslash: \\\" to include a double quote. Example: \"Big Tex says \\\"Howdy\\\"!\""
+      },
+      {
+        "question": "What are some useful escape characters in Java strings?",
+        "answer": "\\n (newline), \\t (tab), \\r (carriage return), \\\\\" (quote)"
+      },
+      {
+        "question": "Should you use '==' to compare strings in Java?",
+        "answer": "No, use .equals() or .equalsIgnoreCase(). '==' checks memory references, not content."
+      },
+      {
+        "question": "How do you compare strings in Java?",
+        "answer": "Use s1.equals(s2) for case-sensitive comparison, or s1.equalsIgnoreCase(s2) for ignoring case."
+      },
+      {
+        "question": "How do you get the length of a string in Java?",
+        "answer": "Use the length() method. Example: fullName.length();"
+      },
+      {
+        "question": "How do you trim whitespace from a string?",
+        "answer": "Use the trim() method. Example: username.trim();"
+      },
+      {
+        "question": "How do you convert a string to uppercase or lowercase?",
+        "answer": "Use .toUpperCase() and .toLowerCase() methods."
+      },
+      {
+        "question": "How do you check if a string starts or ends with a specific substring?",
+        "answer": "Use startsWith(\"text\") or endsWith(\"text\") methods."
+      },
+      {
+        "question": "How do you access a specific character in a string?",
+        "answer": "Use the charAt(index) method. Indexing starts at 0."
+      },
+      {
+        "question": "How do you find the position of a substring in a string?",
+        "answer": "Use indexOf(\"substring\"). It returns the position or -1 if not found."
+      },
+      {
+        "question": "How do you get part of a string in Java?",
+        "answer": "Use substring(start, end). End index is exclusive."
+      },
+      {
+        "question": "How do you split a string into an array using a delimiter?",
+        "answer": "Use the split() method. Example: input.split(\"\\\\|\")"
+      },
+      {
+        "question": "How do you convert a String to an int in Java?",
+        "answer": "Use Integer.parseInt(). Example: int quantity = Integer.parseInt(\"21\");"
+      },
+      {
+        "question": "How do you convert a String to a float in Java?",
+        "answer": "Use Float.parseFloat(). Example: float price = Float.parseFloat(\"4.99\");"
+      },
+      {
+        "question": "How do you convert a String to a double in Java?",
+        "answer": "Use Double.parseDouble(). Example: double price = Double.parseDouble(\"4.99\");"
+      },
+      {
+        "question": "How do you split a delimited string to extract values?",
+        "answer": "Use split() with a delimiter. Example: input.split(Pattern.quote(\"|\"));"
+      },
+      {
+        "question": "How do you convert a String to a LocalDate?",
+        "answer": "Use LocalDate.parse(). The input must be in ISO format: YYYY-MM-DD."
+      },
+      {
+        "question": "What is the ISO 8601 date format?",
+        "answer": "YYYY-MM-DD — the default expected format for parsing dates in Java."
+      },
+      {
+        "question": "How do you parse a non-standard date format like MM/dd/yyyy?",
+        "answer": "Use DateTimeFormatter.ofPattern(\"MM/dd/yyyy\") and pass it to LocalDate.parse()."
+      },
+      {
+        "question": "How do you parse a formatted date like '7 Oct 2002'?",
+        "answer": "Use DateTimeFormatter.ofPattern(\"d MMM yyyy\") with LocalDate.parse()."
+      },
+      {
+        "question": "What Java class allows you to define custom date formats?",
+        "answer": "DateTimeFormatter from java.time.format."
+      },
+      {
+        "question": "What does LocalDate.parse() return?",
+        "answer": "A LocalDate object representing the date in the input string."
+      },
+      {
+        "question": "Why should you use StringBuilder instead of String when modifying text repeatedly?",
+        "answer": "Because StringBuilder is mutable and more efficient; it doesn't create a new object with each change."
+      },
+      {
+        "question": "What does immutable mean in the context of Java Strings?",
+        "answer": "It means once a String is created, it cannot be changed. Any modification creates a new String object."
+      },
+      {
+        "question": "How do you create a StringBuilder object?",
+        "answer": "Use: StringBuilder sb = new StringBuilder();"
+      },
+      {
+        "question": "How do you add text to a StringBuilder?",
+        "answer": "Use the append() method. Example: sb.append(\"Hello\");"
+      },
+      {
+        "question": "How do you convert a StringBuilder back into a String?",
+        "answer": "Use the toString() method. Example: String finalText = sb.toString();"
+      },
+      {
+        "question": "Why is StringBuilder more efficient than String for repeated changes?",
+        "answer": "Because it updates the same object in memory, rather than creating a new string each time."
+      },
+      {
+        "question": "Can you use String methods directly on a StringBuilder object?",
+        "answer": "No, StringBuilder has its own set of methods. You must call toString() first to use String methods."
+      },
+      {
+        "question": "What is CodeWars?",
+        "answer": "CodeWars is a website for practicing coding problems, where each problem is called a 'Kata'."
+      },
+      {
+        "question": "What is a Kata in CodeWars?",
+        "answer": "A coding challenge designed to help improve programming skills through repetition and practice."
+      },
+      {
+        "question": "What does the 'Kyu' ranking system mean on CodeWars?",
+        "answer": "It's a ranking system borrowed from martial arts where you start at 8 Kyu (easiest) and progress toward 1 Kyu (hardest)."
+      },
+      {
+        "question": "What happens as you complete harder Katas on CodeWars?",
+        "answer": "You earn more points and level up your Kyu rank."
+      },
+      {
+        "question": "What can you do after creating a CodeWars account?",
+        "answer": "You can join a clan, complete Katas, and view your progress on the leaderboard."
+      },
+      {
+        "question": "How do you train on a Kata in CodeWars?",
+        "answer": "Read the instructions, click 'Train', and solve the problem in the code editor."
+      },
+      {
+        "question": "How does CodeWars help you improve your coding?",
+        "answer": "By offering progressively harder Katas that challenge your problem-solving and programming logic."
+      },
+      {
+        "question": "What should you do before attempting a CodeWars Kata?",
+        "answer": "Understand the instructions, plan your approach, and optionally prototype your solution locally."
+      },
+      {
+        "question": "What is the best way to solve a Kata if you're stuck?",
+        "answer": "Break it down on paper or use a whiteboard, then test different ideas in the editor or IntelliJ."
+      },
+      {
+        "question": "What’s an example of a CodeWars problem you might encounter?",
+        "answer": "Kata: 'Quarter of the year' – determine the quarter based on the month number."
+      },
+      {
+        "question": "What is a class in Java?",
+        "answer": "A class is a blueprint for creating objects, grouping related data (fields) and operations (methods) together."
+      },
+      {
+        "question": "What does it mean to instantiate a class?",
+        "answer": "It means to create an object based on that class using the new keyword."
+      },
+      {
+        "question": "What is the main purpose of encapsulation?",
+        "answer": "To hide internal data and expose only necessary parts through methods, improving maintainability and security."
+      },
+      {
+        "question": "What access modifier makes fields or methods accessible only inside the same class?",
+        "answer": "private"
+      },
+      {
+        "question": "What access modifier makes fields or methods accessible from anywhere?",
+        "answer": "public"
+      },
+      {
+        "question": "What is the default access level if you don’t specify one in Java?",
+        "answer": "Package-private: accessible only within the same package."
+      },
+      {
+        "question": "What are getter and setter methods?",
+        "answer": "Getters return the value of a private variable, and setters change the value of a private variable."
+      },
+      {
+        "question": "How is a constructor different from other methods?",
+        "answer": "A constructor has the same name as the class and is used to initialize objects when they are created."
+      },
+      {
+        "question": "How do you create a class in Java?",
+        "answer": "Create a .java file with the class name, declare fields (usually private), and define methods including a constructor."
+      },
+      {
+        "question": "How do you instantiate an object from a class?",
+        "answer": "Use the new keyword. Example: Person p1 = new Person(\"Dana\", 63);"
+      },
+      {
+        "question": "What is an object in Java?",
+        "answer": "An object is an instance of a class. It contains values stored in fields and behaviors defined by methods."
+      },
+      {
+        "question": "How do you call a method on an object?",
+        "answer": "Use the dot operator. Example: student1.getName();"
+      },
+      {
+        "question": "What is method overloading?",
+        "answer": "Creating multiple methods with the same name but different parameter lists within the same class."
+      },
+      {
+        "question": "How can you pass parameters to methods in Java?",
+        "answer": "By defining parameters in the method signature and passing arguments when calling the method."
+      },
+      {
+        "question": "What does the 'this' keyword refer to in Java?",
+        "answer": "It refers to the current object — useful to differentiate instance variables from parameters with the same name."
+      },
+      {
+        "question": "Why might you create custom methods in a class?",
+        "answer": "To encapsulate actions the object can perform and make your code cleaner, reusable, and readable."
+      },
+      {
+        "question": "What is the difference between a method that returns a value and one that doesn’t?",
+        "answer": "A method that returns a value uses a return statement and has a return type (like int or String); one that doesn’t uses 'void'."
+      },
+      {
+        "question": "What is the signature of a method?",
+        "answer": "The combination of its name and parameter types — used by the compiler to distinguish between overloaded methods."
+      },
+      {
+        "question": "What does it mean to encapsulate behavior in a method?",
+        "answer": "It means wrapping related logic into a method so it can be reused and abstracted from the main program flow."
+      },
+      {
+        "question": "How do you structure a good Java class?",
+        "answer": "Include private fields, public constructors, getter/setter methods, and custom behavior methods."
+      },
+      {
+        "question": "What is a loop in programming?",
+        "answer": "A loop lets you repeat code multiple times until a certain condition is met."
+      },
+      {
+        "question": "What is a while loop in Java?",
+        "answer": "A while loop repeats a block of code as long as a boolean condition remains true."
+      },
+      {
+        "question": "What is the syntax of a while loop?",
+        "answer": "while (condition) { // code to repeat }"
+      },
+      {
+        "question": "What happens if the condition in a while loop is always true?",
+        "answer": "It becomes an infinite loop and the code never stops unless manually interrupted."
+      },
+      {
+        "question": "What should you always do inside a while loop?",
+        "answer": "Update the condition so the loop eventually ends — usually by changing a variable."
+      },
+      {
+        "question": "What is a boolean variable?",
+        "answer": "A variable that holds either true or false."
+      },
+      {
+        "question": "What kind of logic works well with while loops?",
+        "answer": "Repeating something until the user provides correct input or a goal is reached."
+      },
+      {
+        "question": "What is a loop counter?",
+        "answer": "A variable (like 'i') used to count the number of loop iterations — often incremented or decremented each time."
+      },
+      {
+        "question": "What happens if you forget to update your loop condition?",
+        "answer": "You risk creating an infinite loop."
+      },
+      {
+        "question": "Can a while loop condition be based on user input?",
+        "answer": "Yes — for example, 'while (!input.equals(\"exit\"))' repeats until the user types 'exit'."
+      },
+      {
+        "question": "What is a for loop in Java?",
+        "answer": "A for loop is used to repeat a block of code a specific number of times using a counter variable."
+      },
+      {
+        "question": "What is the syntax of a for loop in Java?",
+        "answer": "for (initialization; condition; update) { // code to repeat }"
+      },
+      {
+        "question": "What are the three parts of a for loop header?",
+        "answer": "1) Initialization: starting value, 2) Condition: when to stop, 3) Update: how the counter changes each time."
+      },
+      {
+        "question": "When should you use a for loop instead of a while loop?",
+        "answer": "Use a for loop when you know exactly how many times you want to repeat the code."
+      },
+      {
+        "question": "What is a loop control variable?",
+        "answer": "The variable (usually 'i' or 'j') that controls the number of times the loop runs."
+      },
+      {
+        "question": "How do you create a loop that counts from 1 to 10?",
+        "answer": "for (int i = 1; i <= 10; i++)"
+      },
+      {
+        "question": "How do you create a loop that counts backwards from 10 to 1?",
+        "answer": "for (int i = 10; i >= 1; i--)"
+      },
+      {
+        "question": "Can you use variables declared in a for loop outside of it?",
+        "answer": "No, the loop variable is local to the loop unless declared outside the loop."
+      },
+      {
+        "question": "How do you loop over even numbers between 0 and 10?",
+        "answer": "for (int i = 0; i <= 10; i += 2)"
+      },
+      {
+        "question": "What happens if you forget to update the counter in a for loop?",
+        "answer": "The loop may run infinitely (if the condition never becomes false) or behave unexpectedly."
+      },
+      {
+        "question": "What is an array in Java?",
+        "answer": "An array is a data structure that holds a fixed number of values of the same data type."
+      },
+      {
+        "question": "How do you declare an array of integers with 5 slots?",
+        "answer": "int[] numbers = new int[5];"
+      },
+      {
+        "question": "How do you create and initialize an array with values?",
+        "answer": "String[] colors = {\"red\", \"green\", \"blue\"};"
+      },
+      {
+        "question": "What is the index of the first element in an array?",
+        "answer": "0 — Java arrays are zero-indexed."
+      },
+      {
+        "question": "What happens if you try to access an index that doesn’t exist?",
+        "answer": "You get an ArrayIndexOutOfBoundsException."
+      },
+      {
+        "question": "How do you assign a value to a specific index in an array?",
+        "answer": "Use the index: names[1] = \"Maria\";"
+      },
+      {
+        "question": "How do you get the length of an array?",
+        "answer": "Use arrayName.length — note that it’s a field, not a method."
+      },
+      {
+        "question": "How do you loop through an array using a for loop?",
+        "answer": "for (int i = 0; i < array.length; i++) { System.out.println(array[i]); }"
+      },
+      {
+        "question": "What is an enhanced for loop?",
+        "answer": "A cleaner way to loop through arrays. Example: for (String color : colors) { System.out.println(color); }"
+      },
+      {
+        "question": "When should you use an enhanced for loop?",
+        "answer": "When you need to access each element in order but don’t need the index."
+      }
+    ]
